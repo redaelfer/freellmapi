@@ -1,0 +1,19 @@
+{
+  "name": "freellmapi-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Standalone local FreeLLMAPI gateway and Codex / Claude Code launchers",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env scripts/start.js",
+    "setup": "node --env-file-if-exists=.env scripts/setup.js",
+    "models": "node --env-file-if-exists=.env scripts/models.js",
+    "codex": "node --env-file-if-exists=.env scripts/code.js codex",
+    "claude": "node --env-file-if-exists=.env scripts/code.js claude",
+    "test": "node --test test/*.test.js",
+    "check": "node scripts/check.js"
+  }
+}

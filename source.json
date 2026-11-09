@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/tashfeenahmed/freellmapi.git",
+  "revision": "fb07845faf7cf986ea9f3692e055076035dd8739",
+  "directory": "upstream",
+  "packageVersion": "0.2.1",
+  "guide": "README.md",
+  "note": "The separately cloned checkout, dependencies, database and credentials are ignored. No upstream source modifications are required."
+}

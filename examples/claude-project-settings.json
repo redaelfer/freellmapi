@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "defaultMode": "default",
+    "allow": [
+      "Bash(npm --prefix frontend install --ignore-scripts)",
+      "Bash(npm --prefix frontend install --save-dev --ignore-scripts typescript @types/node @types/react @types/react-dom tailwindcss@3 postcss autoprefixer)",
+      "Bash(npm --prefix frontend ls --depth=0)",
+      "Bash(npm --prefix frontend --ignore-scripts run dev)",
+      "Bash(npm --prefix frontend --ignore-scripts run build)",
+      "Bash(npm --prefix frontend --ignore-scripts run start)"
+    ]
+  }
+}
