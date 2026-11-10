@@ -2,7 +2,7 @@
 
 The gateway, dashboard and provider integrations come from [FreeLLMAPI](https://github.com/tashfeenahmed/freellmapi), an MIT-licensed project by Tashfeen Ahmed and its contributors. [Upstream license](https://github.com/tashfeenahmed/freellmapi/blob/fb07845faf7cf986ea9f3692e055076035dd8739/LICENSE)
 
-In this workspace, **redaelfer** added the Claude Code and Codex launchers, the coding model profile, and failover to a downloaded Ollama model. Claude Code can use configured free-tier providers or run inference locally. The launcher uses the upstream revision recorded in [source.json](source.json).
+I added Claude Code support. Claude Code can use configured free-tier providers or run inference locally. The launcher uses the upstream revision recorded in [source.json](source.json).
 
 To recreate this configuration on a new machine, follow the [restore guide](RESTORE.md).
 
